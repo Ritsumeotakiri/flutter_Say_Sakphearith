@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'order.dart'; // Assuming this contains order-related functionalities
-import 'table_reserve.dart'; // Assuming this contains reservation-related functionalities
+import 'order.dart'; 
+import 'table_reserve.dart'; 
 
 void main() {
   while (true) {
@@ -21,7 +21,7 @@ void main() {
       case '3':
         print("Thank you for visiting! Goodbye!");
 
-        return; // Exit the loop and end the program
+        return; 
 
       default:
         print("Invalid choice. Please try again.");
