@@ -3,8 +3,6 @@ import 'package:uuid/uuid.dart';
 
 const uuid = Uuid();
 
-enum moneytype { Euro, Dollar, pound }
-
 enum Category {
   food(Icons.lunch_dining),
   travel(Icons.flight_takeoff),
@@ -29,9 +27,4 @@ class Expense {
   final double amount;
   final DateTime date;
   final Category category;
-
-  @override
-  String toString() {
-    return "Expense $title , amount $amount";
-  }
 }
